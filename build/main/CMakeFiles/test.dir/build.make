@@ -61,24 +61,24 @@ include main\CMakeFiles\test.dir\flags.make
 main\CMakeFiles\test.dir\codegen:
 .PHONY : main\CMakeFiles\test.dir\codegen
 
-main\CMakeFiles\test.dir\test.c.obj: main\CMakeFiles\test.dir\flags.make
-main\CMakeFiles\test.dir\test.c.obj: C:\Pico\test\main\test.c
-main\CMakeFiles\test.dir\test.c.obj: main\CMakeFiles\test.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Pico\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/test.dir/test.c.obj"
+main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj: main\CMakeFiles\test.dir\flags.make
+main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj: C:\Pico\test\main\os6_pico2_Nagoya.c
+main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj: main\CMakeFiles\test.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Pico\test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object main/CMakeFiles/test.dir/os6_pico2_Nagoya.c.obj"
 	cd C:\Pico\test\build\main
-	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main\CMakeFiles\test.dir\test.c.obj -MF CMakeFiles\test.dir\test.c.obj.d -o CMakeFiles\test.dir\test.c.obj -c C:\Pico\test\main\test.c
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj -MF CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj.d -o CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj -c C:\Pico\test\main\os6_pico2_Nagoya.c
 	cd C:\Pico\test\build
 
-main\CMakeFiles\test.dir\test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/test.c.i"
+main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test.dir/os6_pico2_Nagoya.c.i"
 	cd C:\Pico\test\build\main
-	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\test\main\test.c > CMakeFiles\test.dir\test.c.i
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Pico\test\main\os6_pico2_Nagoya.c > CMakeFiles\test.dir\os6_pico2_Nagoya.c.i
 	cd C:\Pico\test\build
 
-main\CMakeFiles\test.dir\test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/test.c.s"
+main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test.dir/os6_pico2_Nagoya.c.s"
 	cd C:\Pico\test\build\main
-	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\test\main\test.c -o CMakeFiles\test.dir\test.c.s
+	C:\PROGRA~1\RASPBE~1\PICOSD~1.1\GCC-AR~1\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Pico\test\main\os6_pico2_Nagoya.c -o CMakeFiles\test.dir\os6_pico2_Nagoya.c.s
 	cd C:\Pico\test\build
 
 main\CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: main\CMakeFiles\test.dir\flags.make
@@ -1672,7 +1672,7 @@ main\CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_dev
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles\test.dir\test.c.obj" \
+"CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj" \
 "CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj" \
 "CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj" \
 "CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj" \
@@ -1757,7 +1757,7 @@ test_OBJECTS = \
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-main\test.elf: main\CMakeFiles\test.dir\test.c.obj
+main\test.elf: main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj
 main\test.elf: main\CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 main\test.elf: main\CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 main\test.elf: main\CMakeFiles\test.dir\C_\Pico\pico-sdk\src\rp2040\pico_platform\platform.c.obj

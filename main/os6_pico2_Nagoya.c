@@ -1,7 +1,21 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-//hello
+
+//Main Moter pin
+#define MMpin1_1 9
+#define MMpin1_2 10
+#define MMpin2_1 11
+#define MMpin2_2 12
+#define MMpin3_1 13
+#define MMpin3_2 14
+#define MMpin4_1 15
+#define MMpin4_2 16
+
+//Dribbler Motor pin
+#define DMpin1 16
+#define DMpin2 17
+
 void main(void) {
     //To use USB
     stdio_init_all();

@@ -1,5 +1,5 @@
 #Add an executable target to be build from the source files
-add_executable(test test.c)
+add_executable(test os6_pico2_Nagoya.c)
 
 #Pull in our pico_stdlib which aggregates commonly used features
 target_link_libraries(test pico_stdlib)

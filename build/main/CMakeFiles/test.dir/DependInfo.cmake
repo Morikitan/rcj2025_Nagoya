@@ -216,7 +216,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "C:/Pico/test/main/test.c" "main/CMakeFiles/test.dir/test.c.obj" "gcc" "main/CMakeFiles/test.dir/test.c.obj.d"
+  "C:/Pico/test/main/os6_pico2_Nagoya.c" "main/CMakeFiles/test.dir/os6_pico2_Nagoya.c.obj" "gcc" "main/CMakeFiles/test.dir/os6_pico2_Nagoya.c.obj.d"
   "C:/Pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj" "gcc" "main/CMakeFiles/test.dir/C_/Pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.obj.d"
   )
 

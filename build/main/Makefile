@@ -2313,35 +2313,35 @@ C_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s:
 	cd C:\Pico\test\build\main
 .PHONY : C_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
 
-test.obj: test.c.obj
-.PHONY : test.obj
+os6_pico2_Nagoya.obj: os6_pico2_Nagoya.c.obj
+.PHONY : os6_pico2_Nagoya.obj
 
 # target to build an object file
-test.c.obj:
+os6_pico2_Nagoya.c.obj:
 	cd C:\Pico\test\build
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\test.c.obj
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.obj
 	cd C:\Pico\test\build\main
-.PHONY : test.c.obj
+.PHONY : os6_pico2_Nagoya.c.obj
 
-test.i: test.c.i
-.PHONY : test.i
+os6_pico2_Nagoya.i: os6_pico2_Nagoya.c.i
+.PHONY : os6_pico2_Nagoya.i
 
 # target to preprocess a source file
-test.c.i:
+os6_pico2_Nagoya.c.i:
 	cd C:\Pico\test\build
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\test.c.i
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.i
 	cd C:\Pico\test\build\main
-.PHONY : test.c.i
+.PHONY : os6_pico2_Nagoya.c.i
 
-test.s: test.c.s
-.PHONY : test.s
+os6_pico2_Nagoya.s: os6_pico2_Nagoya.c.s
+.PHONY : os6_pico2_Nagoya.s
 
 # target to generate assembly for a file
-test.c.s:
+os6_pico2_Nagoya.c.s:
 	cd C:\Pico\test\build
-	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\test.c.s
+	$(MAKE) $(MAKESILENT) -f main\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) main\CMakeFiles\test.dir\os6_pico2_Nagoya.c.s
 	cd C:\Pico\test\build\main
-.PHONY : test.c.s
+.PHONY : os6_pico2_Nagoya.c.s
 
 # Help Target
 help:
@@ -2570,9 +2570,9 @@ help:
 	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... os6_pico2_Nagoya.obj
+	@echo ... os6_pico2_Nagoya.i
+	@echo ... os6_pico2_Nagoya.s
 .PHONY : help
 
 
