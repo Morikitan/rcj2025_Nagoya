@@ -1,0 +1,3 @@
+C:/Pico/test/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+C:/Pico/test/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+C:/Pico/test/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
